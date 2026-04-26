@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{23CBD005-E5F7-416D-8988-186C3288D52A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraditionalAmlEngine", "src\TraditionalAmlEngine\TraditionalAmlEngine.csproj", "{6891CA23-ED76-4250-B1E5-542C5EEB929C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzzyAmlEngine", "src\FuzzyAmlEngine\FuzzyAmlEngine.csproj", "{598D9752-7FD3-41E1-AC6C-EDE56FC25E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp", "src\DemoApp\DemoApp.csproj", "{392CFB82-A210-4853-B525-0EF328998F0F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6891CA23-ED76-4250-B1E5-542C5EEB929C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6891CA23-ED76-4250-B1E5-542C5EEB929C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6891CA23-ED76-4250-B1E5-542C5EEB929C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6891CA23-ED76-4250-B1E5-542C5EEB929C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598D9752-7FD3-41E1-AC6C-EDE56FC25E6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598D9752-7FD3-41E1-AC6C-EDE56FC25E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598D9752-7FD3-41E1-AC6C-EDE56FC25E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598D9752-7FD3-41E1-AC6C-EDE56FC25E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392CFB82-A210-4853-B525-0EF328998F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392CFB82-A210-4853-B525-0EF328998F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392CFB82-A210-4853-B525-0EF328998F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392CFB82-A210-4853-B525-0EF328998F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6891CA23-ED76-4250-B1E5-542C5EEB929C} = {23CBD005-E5F7-416D-8988-186C3288D52A}
+		{598D9752-7FD3-41E1-AC6C-EDE56FC25E6E} = {23CBD005-E5F7-416D-8988-186C3288D52A}
+		{392CFB82-A210-4853-B525-0EF328998F0F} = {23CBD005-E5F7-416D-8988-186C3288D52A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "FuzzyAmlEngine/1.0.0": {
+        "dependencies": {
+          "TraditionalAmlEngine": "1.0.0"
+        },
+        "runtime": {
+          "FuzzyAmlEngine.dll": {}
+        }
+      },
+      "TraditionalAmlEngine/1.0.0": {
+        "runtime": {
+          "TraditionalAmlEngine.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FuzzyAmlEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TraditionalAmlEngine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

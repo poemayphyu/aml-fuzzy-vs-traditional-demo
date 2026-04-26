@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "FuzzyAmlEngine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TraditionalAmlEngine": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FuzzyAmlEngine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FuzzyAmlEngine.dll": {}
+        }
+      },
+      "TraditionalAmlEngine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TraditionalAmlEngine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TraditionalAmlEngine.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FuzzyAmlEngine/1.0.0": {
+      "type": "project",
+      "path": "../FuzzyAmlEngine/FuzzyAmlEngine.csproj",
+      "msbuildProject": "../FuzzyAmlEngine/FuzzyAmlEngine.csproj"
+    },
+    "TraditionalAmlEngine/1.0.0": {
+      "type": "project",
+      "path": "../TraditionalAmlEngine/TraditionalAmlEngine.csproj",
+      "msbuildProject": "../TraditionalAmlEngine/TraditionalAmlEngine.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "FuzzyAmlEngine >= 1.0.0",
+      "TraditionalAmlEngine >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\poemayphyu\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Dev\\aml-fuzzy-vs-traditional-demo\\src\\DemoApp\\DemoApp.csproj",
+      "projectName": "DemoApp",
+      "projectPath": "D:\\Dev\\aml-fuzzy-vs-traditional-demo\\src\\DemoApp\\DemoApp.csproj",
+      "packagesPath": "C:\\Users\\poemayphyu\\.nuget\\packages\\",
+      "outputPath": "D:\\Dev\\aml-fuzzy-vs-traditional-demo\\src\\DemoApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\poemayphyu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://mmu-grpcore-inf.mm-test.twocp.xyz/SIT/DllTesting": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://ebg-nuget.mm-test.twocp.xyz/nuget": {},
+        "https://nuget.2c2p.com/nuget": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\Dev\\aml-fuzzy-vs-traditional-demo\\src\\FuzzyAmlEngine\\FuzzyAmlEngine.csproj": {
+              "projectPath": "D:\\Dev\\aml-fuzzy-vs-traditional-demo\\src\\FuzzyAmlEngine\\FuzzyAmlEngine.csproj"
+            },
+            "D:\\Dev\\aml-fuzzy-vs-traditional-demo\\src\\TraditionalAmlEngine\\TraditionalAmlEngine.csproj": {
+              "projectPath": "D:\\Dev\\aml-fuzzy-vs-traditional-demo\\src\\TraditionalAmlEngine\\TraditionalAmlEngine.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.106/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
